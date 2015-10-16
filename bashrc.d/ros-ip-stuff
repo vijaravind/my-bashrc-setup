@@ -1,0 +1,5 @@
+#!/bin/bash
+#export ROS_IP=172.26.1.118
+#export ROS_IP=192.168.5.2
+#export ROS_IP=192.168.43.4
+export ROS_HOSTNAME=aravind-tum-create

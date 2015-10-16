@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ -d "$HOME/.android-studio/bin" ]; then
+    export PATH=$HOME/.android-studio/bin::$PATH
+fi

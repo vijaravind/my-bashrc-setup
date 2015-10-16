@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ -d "$HOME/cerevoice" ]; then
+    export PYTHONPATH=$HOME/cerevoice/cerevoice_eng/pylib::$PYTHONPATH
+    export PYTHONPATH=$HOME/cerevoice/cerevoice_aud/pylib::$PYTHONPATH
+fi

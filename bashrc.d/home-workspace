@@ -1,0 +1,5 @@
+#!/bin/bash
+# create new environment variable in indicate workspace directory
+if [ -d "$HOME/workspace" ]; then
+    export WORKSPACE="$HOME/workspace"
+fi

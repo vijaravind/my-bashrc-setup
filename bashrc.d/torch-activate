@@ -1,0 +1,2 @@
+#!/bin/bash
+. /home/aravind/torch/install/bin/torch-activate
