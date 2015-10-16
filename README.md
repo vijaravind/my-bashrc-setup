@@ -1,5 +1,5 @@
-# my-vim-setup
-My vim setup
+# my-bashrc-setup
+My bashrc setup
 
 # Setup
 To setup, run
