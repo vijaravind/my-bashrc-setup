@@ -1,4 +1,12 @@
 #!/bin/bash
+unset CMAKE_PREFIX_PATH
+unset PKG_CONFIG_PATH
+unset PYTHONPATH
+unset ROS_PACKAGE_PATH
+unset ROSLISP_PACKAGE_DIRECTORIES
+unset ROS_MAVEN_PATH
+unset ROS_MAVEN_REPOSITORY
+unset ROS_MAVEN_DEPLOYMENT_REPOSITORY
 source /opt/ros/indigo/setup.bash
-source /home/aravind/ac2ws/catkin_ac2_msgs/devel/setup.bash
-source /home/aravind/ac2ws/catkin_ac2/devel/setup.bash
+source /home/aravind/ac2ws/ac2-msgs-srvs/devel/setup.bash
+source /home/aravind/ac2ws/current/devel/setup.bash
